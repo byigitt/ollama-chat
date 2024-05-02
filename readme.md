@@ -1,6 +1,9 @@
 # Ollama Chat
 Chat with your local LLM model inside your terminal!
 
+
+![](https://github.com/byigitt/ollama-chat/blob/main/images/demo.gif)
+
 ## Features
 - Your and LLM's messages are stored in an array so it is like a real conversation.
 - Results are streaming so you dont have to wait for all of the response.
@@ -10,5 +13,5 @@ Chat with your local LLM model inside your terminal!
   - After installing it, please serve your preferred LLM model with `ollama run model_name`.
 - Clone the repo.
 - `npm install` to install all dependencies.
-- Edit `model` key at line:16 accordingly to your model preferrence.
+- Edit index.js file, `model` key at line:16 accordingly to your model preferrence.
 - `node index.js` to start the converstaion.
